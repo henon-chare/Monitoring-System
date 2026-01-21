@@ -1,0 +1,68 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f0f4f8;
+}
+
+.container {
+  width: 400px;
+  margin: 100px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #1f2937;
+}
+
+.form input {
+  width: 90%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.form button {
+  width: 95%;
+  padding: 12px;
+  margin-top: 10px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form button:hover {
+  background: #1d4ed8;
+}
+
+.links {
+  margin-top: 15px;
+}
+
+.links p {
+  display: inline-block;
+  margin: 5px;
+  color: #2563eb;
+  cursor: pointer;
+}
+
+.links p:hover {
+  text-decoration: underline;
+}
+
+.message {
+  background: #e0f2fe;
+  color: #0369a1;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
